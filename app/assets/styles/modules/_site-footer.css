@@ -12,6 +12,7 @@
     &--text{
       display: inline-block;
       padding-right: 3em;
+      margin-bottom: 0;
     }
   }
 
