@@ -917,3 +917,22 @@ p{
 .testimonial--last{
     margin-bottom: 0;
   }
+
+.site-footer{
+  background-color: #2f5572;
+  padding: .5rem 0;
+
+}
+
+.site-footer--text{
+    color: #FFF;
+    font-weight: 200;
+    letter-spacing: 1.17px;
+  }
+
+@media(min-width: 1010px){
+    .site-footer--text{
+      display: inline-block;
+      padding-right: 3em;
+    }
+  }

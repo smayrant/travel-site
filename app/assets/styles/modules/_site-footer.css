@@ -1,0 +1,18 @@
+.site-footer{
+  background-color: $mainBlue;
+  padding: .5rem 0;
+
+  &--text{
+    color: #FFF;
+    font-weight: 200;
+    letter-spacing: 1.17px;
+  }
+
+  @mixin atLarge{
+    &--text{
+      display: inline-block;
+      padding-right: 3em;
+    }
+  }
+
+}
